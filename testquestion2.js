@@ -7,7 +7,7 @@ function setup() {
     textSize(20);
     textAlign( CENTER , CENTER );
     for(let i = 0 ; i < 5 ; i++ ) {
-        text( 100 , yPos , pokemons[i] );
+        text( pokemons[i] , 100 , yPos );
         yPos += 50
     }
 }
