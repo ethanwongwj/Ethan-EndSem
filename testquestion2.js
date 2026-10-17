@@ -5,7 +5,7 @@ function setup() {
     background("black");
     fill("pink");
     textSize(20);
-    textAlign(HORIZONTAL,VERTICAL);
+    textAlign();
     for(let i = 0 ; i < 5 ; i++ ) {
         text( 100 , yPos , pokemons[i] );
     }
