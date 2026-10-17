@@ -9,9 +9,9 @@ function setup(){
 }
 function draw() {
     background("lightblue");
-    circle( xPos , height/2 , 50);
+    circle( xPos , height/2 , diameter);
     xPos = xPos + xSpeed;
-    if( xPos > 574 ) {
+    if( xPos > (width - 25) ) {
         xSpeed = -5;
     }
     if( xPos < 26) {
