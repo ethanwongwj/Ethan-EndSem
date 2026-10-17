@@ -8,5 +8,5 @@ function setup(){
 }
 function draw() {
     background("lightblue");
-    circle( xPos , height/2)
+    circle( xPos , height/2 , )
 }
