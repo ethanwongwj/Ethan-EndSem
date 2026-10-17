@@ -6,6 +6,6 @@ function setup() {
     textSize(20);
     textAlign(HORIZONTAL,VERTICAL);
     for(let i = 0 ; i < 5 ; i++ ) {
-        pokemons[i]
+        text(pokemons[i])
     }
 }
