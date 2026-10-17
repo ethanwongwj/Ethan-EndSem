@@ -9,5 +9,8 @@ function setup(){
 function draw() {
     background("lightblue");
     circle( xPos , height/2 , 50);
-    xPos += xSpeed
+    xPos += xSpeed;
+    if(xPos == width - 50) {
+        
+    }
 }
