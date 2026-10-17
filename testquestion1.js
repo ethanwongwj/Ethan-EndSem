@@ -10,7 +10,8 @@ function draw() {
     background("lightblue");
     circle( xPos , height/2 , 50);
     xPos += xSpeed;
-    if(xPos == width - 50) {
-        
+    if(xPos = width - 50 ) {
+        xSpeed = -5
     }
+    if(xPos = 0 ) {}
 }
