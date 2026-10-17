@@ -7,5 +7,5 @@ function setup(){
     fill('limegreen');
 }
 function draw() {
-    
+    background("lightblue");
 }
