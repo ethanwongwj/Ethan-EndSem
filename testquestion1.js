@@ -11,6 +11,7 @@ function draw() {
     circle( xPos , height/2 , 50);
     xPos = xPos + xSpeed;
     if( xPos > 549 ){
-        xSpeed = -5
+        xSpeed = -5;
     }
+    if( xPos < 1){}
 }
