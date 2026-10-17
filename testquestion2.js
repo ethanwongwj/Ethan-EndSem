@@ -9,7 +9,7 @@ function draw() {
     textSize(20);
     textAlign( CENTER , CENTER );
     for(let i = 0 ; i < 5 ; i++ ) {
-        text( 100 , yPos , pokemons[i] );
+        Text( 100 , yPos , pokemons[i] );
         yPos += 50
     }
 }
