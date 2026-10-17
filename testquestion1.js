@@ -13,7 +13,7 @@ function draw() {
     if( xPos > 574 ) {
         xSpeed = -5;
     }
-    if( xPos < 10) {
+    if( xPos < 26) {
         xSpeed = 5;
     }
 }
