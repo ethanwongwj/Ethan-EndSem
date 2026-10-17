@@ -3,6 +3,8 @@ let yPos = 50
 function setup() {
     createCanvas(200,300);
     background("black");
+}
+function draw() {
     fill("pink");
     textSize(20);
     textAlign( CENTER , CENTER );
