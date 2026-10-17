@@ -1,1 +1,1 @@
-
+let pokemons = [pickachu]
