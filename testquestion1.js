@@ -1,4 +1,5 @@
 let xPos, xSpeed;
+let diameter = 50;
 
 function setup(){
     createCanvas(600, 400);
