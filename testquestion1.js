@@ -14,7 +14,7 @@ function draw() {
     if( xPos > (width - 25) ) {
         xSpeed = -5;
     }
-    if( xPos < 26) {
+    if( xPos < (width - 575) ) {
         xSpeed = 5;
     }
 }
