@@ -1,1 +1,1 @@
-let pokemons = ["Pikachu" , "Raichu" , "Bulbasaur" , "Mewtwo" , ""]
+let pokemons = ["Pikachu" , "Raichu" , "Bulbasaur" , "Mewtwo" , "Charizad"]
